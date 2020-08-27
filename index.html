@@ -23,26 +23,29 @@
         <div class="card-body">
             <h2>Profil Ara</h2>
             <p class="lead">
-                Profil aramaya başla!
+                Kullanıcı adına göre bir profil ara
             </p>
-            <input type="text" id="searchProfile" class="form-control">
+            <input type="text" id="searchProfile" class="form-control" placeholder="örn: Bret">
+            <div id="alert" class="bg-danger p-2 mt-2 text-white text-center" style="visibility:hidden;">
+            </div>    
         </div>
     </div>
 </div>
 
-<div id="profileContainer">
+<div class="container">
+    <div id="profileContainer">
 
 
+    </div>    
 </div>
-
 
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="ui.js"></script>
 <script src="profile.js"></script>
 <script src="app.js"></script>
-<script src="ui.js"></script>
 </body>
 </html>
