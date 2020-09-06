@@ -18,7 +18,11 @@ searchProfile.addEventListener('keyup',(event)=>{
                 }else
                 {
                     ui.showProfile(res.profile[0]);
+                    ui.showToDo(res.todo);
                 }
+            })
+            .catch(err => {
+                ui.showAlert(text);
             })
     }
 });
